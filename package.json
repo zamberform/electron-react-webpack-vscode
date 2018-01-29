@@ -1,0 +1,28 @@
+{
+  "name": "electron-react-webpack-vscode",
+  "version": "1.0.0",
+  "description": "Electron + React + Webpack 2 + VSCode.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "J. Renato Ramos González <renato.etc.etc.etc@gmail.com>",
+  "repository": "zamberform/electron-react-webpack-vscode",
+  "license": "WTFPL",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-react": "^6.23.0",
+    "coffee-loader": "^0.9.0",
+    "css-loader": "^0.26.1",
+    "electron": "^1.4.15",
+    "electron-reload": "^1.1.0",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "file-loader": "^0.9.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
